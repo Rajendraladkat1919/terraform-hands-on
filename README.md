@@ -1,4 +1,4 @@
 # terraform-hands-on
 
 
-Initial terrafiom learning.
+Initial terraform learning.
