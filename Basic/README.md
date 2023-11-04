@@ -67,7 +67,7 @@ so after terraform init terraform create `.terraform` folder and `.terraform.loc
 => .terraform folder contains provider details.
 
 Basic git:(basic) ✗ ls -al .terraform/providers/registry.terraform.io/hashicorp/local/2.4.0/darwin_amd64/terraform-provider-local_v2.4.0_x5
--rwxr-xr-x  1 rajendraladkat  staff  14211904 Nov  4 07:57 .terraform/providers/registry.terraform.io/hashicorp/local/2.4.0/darwin_amd64/terraform-provider-local_v2.4.0_x5
+-rwxr-xr-x  1 me  staff  14211904 Nov  4 07:57 .terraform/providers/registry.terraform.io/hashicorp/local/2.4.0/darwin_amd64/terraform-provider-local_v2.4.0_x5
 
 => .terraform.lock.hcl contains of which provider version terraform lock and uses to perform terraform workflow
 
@@ -80,16 +80,7 @@ provider "registry.terraform.io/hashicorp/local" {
   hashes = [
     "h1:Bs7LAkV/iQTLv72j+cTMrvx2U3KyXrcVHaGbdns1NcE=",
     "zh:53604cd29cb92538668fe09565c739358dc53ca56f9f11312b9d7de81e48fab9",
-    "zh:66a46e9c508716a1c98efbf793092f03d50049fa4a83cd6b2251e9a06aca2acf",
-    "zh:70a6f6a852dd83768d0778ce9817d81d4b3f073fab8fa570bff92dcb0824f732",
-    "zh:78d5eefdd9e494defcb3c68d282b8f96630502cac21d1ea161f53cfe9bb483b3",
-    "zh:82a803f2f484c8b766e2e9c32343e9c89b91997b9f8d2697f9f3837f62926b35",
-    "zh:9708a4e40d6cc4b8afd1352e5186e6e1502f6ae599867c120967aebe9d90ed04",
-    "zh:973f65ce0d67c585f4ec250c1e634c9b22d9c4288b484ee2a871d7fa1e317406",
-    "zh:c8fa0f98f9316e4cfef082aa9b785ba16e36ff754d6aba8b456dab9500e671c6",
-    "zh:cfa5342a5f5188b20db246c73ac823918c189468e1382cb3c48a9c0c08fc5bf7",
-    "zh:e0e2b477c7e899c63b06b38cd8684a893d834d6d0b5e9b033cedc06dd7ffe9e2",
-    "zh:f62d7d05ea1ee566f732505200ab38d94315a4add27947a60afa29860822d3fc",
+....
     "zh:fa7ce69dde358e172bd719014ad637634bbdabc49363104f4fca759b4b73f2ce",
   ]
 }
@@ -102,12 +93,12 @@ provider "registry.terraform.io/hashicorp/local" {
 ```
 ➜  Basic git:(basic) ✗ ls -al
 total 32
-drwxr-xr-x  6 rajendraladkat  staff   192 Nov  4 07:57 .
-drwxr-xr-x  5 rajendraladkat  staff   160 Nov  3 16:40 ..
-drwxr-xr-x  3 rajendraladkat  staff    96 Nov  4 07:57 .terraform
--rw-r--r--  1 rajendraladkat  staff  1153 Nov  4 07:57 .terraform.lock.hcl
--rw-r--r--  1 rajendraladkat  staff  4519 Nov  4 08:09 README.md
--rw-r--r--  1 rajendraladkat  staff    87 Nov  4 07:56 main.tf
+drwxr-xr-x  6 me  staff   192 Nov  4 07:57 .
+drwxr-xr-x  5 me  staff   160 Nov  3 16:40 ..
+drwxr-xr-x  3 me  staff    96 Nov  4 07:57 .terraform
+-rw-r--r--  1 me  staff  1153 Nov  4 07:57 .terraform.lock.hcl
+-rw-r--r--  1 me  staff  4519 Nov  4 08:09 README.md
+-rw-r--r--  1 me  staff    87 Nov  4 07:56 main.tf
 
 ```
 # After terraform plan
@@ -141,12 +132,12 @@ Plan: 1 to add, 0 to change, 0 to destroy.
 Note: You didn't use the -out option to save this plan, so Terraform can't guarantee to take exactly these actions if you run "terraform apply" now.
 ➜  Basic git:(basic) ✗ ls -al
 total 32
-drwxr-xr-x  6 rajendraladkat  staff   192 Nov  4 08:09 .
-drwxr-xr-x  5 rajendraladkat  staff   160 Nov  3 16:40 ..
-drwxr-xr-x  3 rajendraladkat  staff    96 Nov  4 07:57 .terraform
--rw-r--r--  1 rajendraladkat  staff  1153 Nov  4 07:57 .terraform.lock.hcl
--rw-r--r--  1 rajendraladkat  staff  4519 Nov  4 08:09 README.md
--rw-r--r--  1 rajendraladkat  staff    87 Nov  4 07:56 main.tf
+drwxr-xr-x  6 me  staff   192 Nov  4 08:09 .
+drwxr-xr-x  5 me  staff   160 Nov  3 16:40 ..
+drwxr-xr-x  3 me  staff    96 Nov  4 07:57 .terraform
+-rw-r--r--  1 me  staff  1153 Nov  4 07:57 .terraform.lock.hcl
+-rw-r--r--  1 me  staff  4519 Nov  4 08:09 README.md
+-rw-r--r--  1 me  staff    87 Nov  4 07:56 main.tf
 ```
 
 
